@@ -18,7 +18,7 @@ const NavigationItem = ({ id, imageUrl, name }: NavigationItemProps) => {
   };
 
   return (
-    <div>
+    <div className="mb-4">
       <button onClick={onClick} className="group relative flex items-center">
         <div
           className={cn(
